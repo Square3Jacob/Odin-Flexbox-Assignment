@@ -122,6 +122,8 @@ button {
     background-color: rgba(0, 0, 0, 0.206);
     color: aliceblue;
     font-size: larger;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .section-one-image {
@@ -197,7 +199,7 @@ img {
 }
 
 @media all and (max-width: 750px) {
-    .boxspace-three, .section.one {
+    .boxspace-three, .section.one, .section-five-container {
       flex-wrap: wrap; 
       flex-direction: column;
       gap: 8px;
@@ -268,4 +270,5 @@ img {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: 32px;
 }
