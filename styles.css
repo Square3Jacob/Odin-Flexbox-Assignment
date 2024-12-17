@@ -76,7 +76,6 @@ body {
     box-sizing: border-box;
     margin-top: 16px;
     display: flex;
-    justify-content: space-between;
     min-height: 250px;
     border: 1px;
     border-radius: 30px;
@@ -174,7 +173,6 @@ img {
     color: aliceblue;
     padding: 16px 48px 32px 48px;
     flex-direction: column;
-    display: flex;
     align-items: center;
 }
 
@@ -201,4 +199,27 @@ img {
       flex-direction: column;
       gap: 8px;
     }
+}
+
+
+.section.four {
+    background-image: linear-gradient(to bottom right, rgb(170, 170, 170),rgb(61, 61, 61));
+    color: aliceblue;
+    padding: 100px;
+    justify-content: center;
+}
+
+
+.section-four-header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 100;
   }
+
+.section-four-text {
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(25, 25, 25);
+}
