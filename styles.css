@@ -1,0 +1,28 @@
+
+body {
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    /* background-color: rgb(86, 79, 183); */
+    /* outline: 2px solid red; */
+}
+
+.nav {
+    background-color: rgb(86, 79, 183);
+    display: flex;
+    align-items: center;
+    padding: 8px 32px 8px 16px;
+    column-gap: 64px;
+}
+
+.navitem.logo {
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.navitem {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
