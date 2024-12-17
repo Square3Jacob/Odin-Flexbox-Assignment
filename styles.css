@@ -116,9 +116,12 @@ button {
     padding-left: 16px;
     padding-right: 16px;
     border: 3px;
-    border-color: rgba(140, 140, 255, 0.534);
+    border-color: rgba(255, 255, 255, 0.534);
     border-style: groove;
-    border-radius: 25px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.206);
+    color: aliceblue;
+    font-size: larger;
 }
 
 .section-one-image {
@@ -133,7 +136,7 @@ img {
 
 
 .section.two {
-    background-image: linear-gradient(to bottom right, rgb(25, 25, 25),rgb(53, 53, 53));
+    background-image: linear-gradient(to bottom right,rgb(53, 53, 53), rgb(25, 25, 25));
     color: aliceblue;
     padding: 16px;
     flex-direction: column;
@@ -222,4 +225,47 @@ img {
     font-size: larger;
     font-weight: 500;
     color: rgb(25, 25, 25);
+}
+
+
+.section.five {
+    background-image: linear-gradient(to bottom right, rgb(255, 255, 255),rgb(175, 175, 175));
+    color: rgb(25, 25, 25);
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-five-container {
+    display: flex;
+    flex: 1;
+    background-color: rgb(0, 110, 255);
+    border-radius: 16px;
+}
+
+.section-five-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+    color: aliceblue;
+}
+
+.section-five-header {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.section-five-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-five-item-2 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
