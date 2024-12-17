@@ -1,5 +1,5 @@
-
-/* * {
+/* 
+* {
     outline: 2px solid red;
 } */
 
@@ -8,7 +8,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
-
     background-color: rgb(143, 140, 199);
 }
 
@@ -17,26 +16,26 @@ body {
     display: flex;
     align-items: center;
     column-gap: 32px;
-    padding-right: 10px;
-    flex-wrap: wrap;
+    padding-right: 8px;
+    row-gap: 2px;
 
     border: 1px;
-    border-radius: 25px;
+    border-radius: 50px;
 }
 
 .navitem.logo {
     display: block;
     margin-right: auto;
     font-weight: 900;
-    font-size: 32px;
+    font-size: 30px;
     border-style: none;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     border-bottom-right-radius: 0px;
     border-top-right-radius: 0px;
     border: 0px;
     padding-left: 32px;
-    padding-right: 32px;
+    padding-right: 8px;
 }
 
 .navitem {
@@ -56,4 +55,27 @@ body {
 
 .nav :hover {
     background-color: rgb(75, 58, 203);
+}
+
+@media all and (max-width: 750px) {
+    .nav {
+      flex-wrap: wrap;
+      gap: 0;
+      justify-content: center;
+      margin: 0;
+      padding: 8px;
+    }
+  }
+
+
+.section.one {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+}
+
+.section-one-container {
+    display: flex;
+    
 }
