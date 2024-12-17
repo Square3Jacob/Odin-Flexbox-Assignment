@@ -142,6 +142,11 @@ img {
     align-items: center;
 }
 
+.section-two-container {
+    padding-left: 32px;
+    padding-right: 32px
+}
+
 .boxspace {
     display: flex;
     justify-content: space-between;
