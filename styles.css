@@ -9,7 +9,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 16px;
-    background-color: rgb(127, 117, 202);
+    background-color: rgb(59, 54, 112);
     height: 3000px;
 }
 
@@ -140,8 +140,6 @@ img {
     flex-direction: column;
     display: flex;
     align-items: center;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 
 .boxspace {
@@ -150,7 +148,6 @@ img {
     min-height: 200px;
     gap: 16px;
     padding: 16px;
-    flex: 1;
     flex-wrap: wrap;
 }
 
@@ -165,4 +162,30 @@ img {
     font-size: 32px;
     padding: 20px;
     border-radius: 16px;
-  }
+}
+
+.section.three {
+    background-image: linear-gradient(to bottom right, rgb(255, 196, 0),rgb(255, 0, 0));
+    color: aliceblue;
+    padding: 16px 48px 32px 48px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.boxspace-three {
+    display: flex;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.info {
+    font-size: 16px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.disney-image {
+    width: auto;
+    height: 200px;
+}
