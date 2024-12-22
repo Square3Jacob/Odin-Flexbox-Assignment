@@ -1,5 +1,5 @@
-
-/* * {
+/* 
+* {
     outline: 2px solid red;
 } */
 
@@ -130,6 +130,11 @@ button {
     display: flex;
     flex-basis: auto;
     height: 300px;
+}
+
+.gif {
+    width: 100px;
+    height: auto;
 }
 
 img {
